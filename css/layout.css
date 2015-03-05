@@ -13,7 +13,7 @@ body {
 }
 
 header[role="banner"]{
-  background-color: rgba(127, 171, 141, 1);
+  background-color: rgba(127, 171, 141, 0.96);
   box-shadow: 0 0 0.9rem rgb(86, 100, 90);
   left: 0;
   margin: 0;
@@ -34,10 +34,7 @@ header[role="banner"]{
 }
 
 section[role="region"]{
-  background-color: rgb(127, 171, 141);
-  height: auto;
-  margin-top: 3.5rem;
-  width: 100%;
+  margin-top: -20rem;
 }
 
 .el-footer{

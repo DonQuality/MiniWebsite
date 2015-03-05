@@ -4,3 +4,12 @@ var showForm = function(){
 };
 
 document.getElementById('show-R-Form').addEventListener('click', showForm, false);
+
+$('#show-R-Form').on('click', function(){
+  $(this).fadeOut();
+});
+
+$('#hide-form').on('click', function(e){
+  $('#register-form').fadeOut();
+  e.preventDefault();
+});
