@@ -1,0 +1,81 @@
+nav  ul{
+  bottom: 0;
+  color: white;
+  position: absolute;
+  right: 0;
+}
+
+nav  ul  li{
+  display: inline;
+  font-size: 1.2rem;
+  margin: 0.2rem 0.5rem 0 0;
+  padding: 0.5rem;
+}
+nav  ul  li:hover{
+  cursor: pointer;
+}
+
+/*Form*/
+
+form{
+  bottom: 8rem;
+  left: 32rem;
+  position: fixed;
+  width: 100%;
+  visibility: hidden;
+}
+
+select,
+input,
+label{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+fieldset{
+  background-color: rgba(198, 229, 198, 0.93);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  box-shadow: 0 0 2rem rgb(86, 100, 90);
+  padding-bottom: 0.2rem;
+  width: 20%;
+}
+
+fieldset p{
+  text-align: center;
+  margin: 0.5rem 0 0.5rem 0.3rem;
+}
+
+legend{
+  background: white;
+  border-top-right-radius: 0.5rem;
+  color: rgb(18, 18, 39);
+  padding: 0.6rem;
+}
+
+input[type="submit"]{
+  margin-top: 0.5rem;
+}
+
+#show-R-Form{
+  background-color: rgba(127, 171, 141, 0.64);
+  box-shadow: 0 0 0.5rem rgb(86, 100, 90);
+  font-size: 1.5rem;
+  position: absolute;
+  right: 5.2rem;
+  text-align: center;
+  top: 25rem;
+  width: 10%;
+  z-index: 9999;
+}
+#show-R-Form:hover{
+  box-shadow: 0 0 1rem rgb(86, 100, 90);;
+  color: white;
+  cursor: pointer;
+  transition: color 0.5s, box-shadow 0.5s;
+}
+

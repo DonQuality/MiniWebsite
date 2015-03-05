@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mini Web Site</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/module.css">
+    <link href='http://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header role="banner">
+      <h1 class="main-logo">Logo Text Here ...</h1>
+      <nav>
+        <ul class="pointer" role="list">
+          <li role="tab">Bla1</li>
+          <li role="tab">Bla2</li>
+          <li role="tab">Bla3</li>
+        </ul>
+      </nav>
+    </header>
+    <section role="region">
+      <div role="bottom">
+        <p id="show-R-Form">Register Now</p>
+      </div>
+      <video id="bgvid" autoplay="autoplay" height="400px" width="100%" muted="muted">
+        <source src="videos/paa.mp4" type="video/mp4">
+        <p>Sorry, this video isn't compatible with your Browser. Please Download Chrome</p>
+      </video>
+    </section>
+    <form id="register-form" action="https://www.example.com" method="post">
+      <fieldset role="main">
+        <legend>Register For Free</legend>
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" require aria-required="true">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" require aria-required="true">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" require aria-required="true">
+          <label for="password">Password</label>
+          <input type="password" id="password" require aria-required="true">
+          <label for="phone">Telephone #</label>
+          <input type="tel" id="phone" require aria-required="true">
+          <p>Optional:</p>
+          <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <input type="submit" name="Register">
+      </fieldset>
+    </form>
+    <footer class="el-footer">
+      <p>&copy;Mini Website. All Rights Reserved</p>
+    </footer>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
